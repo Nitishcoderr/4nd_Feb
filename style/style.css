@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 119px;
+}
+nav{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    height: 80px;
+    margin: 0 auto;
+}
+nav img{
+    filter: invert(100%);
+    width: 126px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+}
+.grow-list {
+    flex-grow: 1;
+    padding-left: 62px;
+}
+ul li {
+    /* border: 2px solid black; */
+    text-decoration: none;
+    list-style: none;
+    padding: 0 5px;
+    margin: 0 12px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: 13px;
+}
+ul li:hover{
+    font-weight: 700px;
+}
+.button{
+    padding-right: 90px;
+}
+button{
+    background-color: #5955b3;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+button:hover{
+    font-weight: 700;
+    background-color: white;
+    color: black;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.left-box h1{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 74px;
+    color: #3c2f60;
+    padding-left: 130px;
+}
+.left-box h1 span{
+    color: #5955b3;
+}
+.left-box p{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #828282;
+    margin-top: 28px;
+    padding-left: 130px;
+}
+.buttom{
+    padding-left: 130px;
+    padding-top: 40px;
+}
+.left-box button{
+    background-color: #5955b3;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.left-box button :hover{
+    font-weight: 700;
+    background-color: white;
+    color: black;
+}
+.right-box{
+    padding-right: 175px;
+}
+.right-box img{
+    width: 500px;
+}
