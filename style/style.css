@@ -9,12 +9,12 @@
     max-width: 130rem;
     margin: 0 auto;
     padding: 0 119px;
+    height: 15vh;
 }
 nav{
-    /* border: 2px solid red; */
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
+    justify-content: center;
     height: 80px;
     margin: 0 auto;
 }
@@ -25,23 +25,21 @@ nav img{
 }
 ul{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .grow-list {
     flex-grow: 1;
     padding-left: 62px;
 }
 ul li {
-    /* border: 2px solid black; */
     text-decoration: none;
     list-style: none;
     padding: 0 5px;
     margin: 0 12px;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    font-size: 13px;
-}
-ul li:hover{
-    font-weight: 700px;
+    font-size: 23px;
 }
 .button{
     padding-right: 90px;
@@ -61,10 +59,11 @@ button:hover{
     color: black;
 }
 .hero-section{
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 55px;
+    margin-top: 20px;
 }
 .left-box h1{
     font-family: "Poppins";
@@ -109,7 +108,8 @@ button:hover{
 }
 .right-box{
     padding-right: 175px;
+    padding-bottom: 60px;
 }
 .right-box img{
-    width: 500px;
+    width: 40vw;
 }
